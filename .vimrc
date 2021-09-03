@@ -1,12 +1,16 @@
 set number relativenumber
 set nocompatible
-set tabstop=8 softtabstop=0 expandtab shiftwidth=4 smarttab
+"set tabstop=8 softtabstop=0 expandtab shiftwidth=4 smarttab
+filetype plugin indent on
+set tabstop=4
+set shiftwidth=4
+set expandtab
 syntax on
 "set ruler
 set showcmd
 set backspace=indent,eol,start
 set laststatus=2
-filetype plugin on
+"filetype plugin on
 
 func! WordProcessor()
         map j gj
@@ -35,7 +39,7 @@ func! FrenchWordProcessor()
 endfu
 com! FR call FrenchWordProcessor()
 
-let g:languagetool_jar='~/Downloads/languagetool/languagetool-standalone/target/LanguageTool-5.3-SNAPSHOT/LanguageTool-5.3-SNAPSHOT/languagetool-commandline.jar'
+"let g:languagetool_jar='~/Downloads/languagetool/languagetool-standalone/target/LanguageTool-5.3-SNAPSHOT/LanguageTool-5.3-SNAPSHOT/languagetool-commandline.jar'
 
 "let g:lightline = {
       "\ 'component_function': {
