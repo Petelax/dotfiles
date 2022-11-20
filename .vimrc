@@ -11,6 +11,7 @@ set showcmd
 set backspace=indent,eol,start
 set laststatus=2
 "filetype plugin on
+"colorscheme peachpuff
 
 func! WordProcessor()
         map j gj
