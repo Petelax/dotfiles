@@ -130,6 +130,21 @@ _G.packer_plugins = {
     path = "/home/peter/.local/share/nvim/site/pack/packer/start/packer.nvim",
     url = "https://github.com/wbthomason/packer.nvim"
   },
+  ["vim-commentary"] = {
+    loaded = true,
+    path = "/home/peter/.local/share/nvim/site/pack/packer/start/vim-commentary",
+    url = "https://github.com/tpope/vim-commentary"
+  },
+  ["vim-fugitive"] = {
+    loaded = true,
+    path = "/home/peter/.local/share/nvim/site/pack/packer/start/vim-fugitive",
+    url = "https://github.com/tpope/vim-fugitive"
+  },
+  ["vim-surround"] = {
+    loaded = true,
+    path = "/home/peter/.local/share/nvim/site/pack/packer/start/vim-surround",
+    url = "https://github.com/tpope/vim-surround"
+  },
   ["vim-vsnip"] = {
     loaded = true,
     path = "/home/peter/.local/share/nvim/site/pack/packer/start/vim-vsnip",

@@ -37,13 +37,17 @@ local lsp_flags = {
   debounce_text_changes = 150,
 }
 
+local capabilities = require('cmp_nvim_lsp').default_capabilities()
+
 require('lspconfig')['clangd'].setup{
     on_attach = on_attach,
     flags = lsp_flags,
+    capabilities = capabilities
 }
 require('lspconfig')['jdtls'].setup{
     on_attach = on_attach,
     flags = lsp_flags,
+    capabilities = capabilities
 }
 
 require'lspconfig'.sumneko_lua.setup {
